@@ -1,13 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+import './css/todo-app.css';
 import App from './App';
+
+import './dom/popup.js'
+import './dom/todos.js'
+
 import reportWebVitals from './reportWebVitals';
+import AppTest from './AppTest';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
+    <AppTest />
   </React.StrictMode>
 );
 
